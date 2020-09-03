@@ -1,85 +1,25 @@
 {
-  "clients": [
-    {
-      "id": 1,
-      "name": "Leanne Graham",
-      "username": "Bret",
-      "email": "Sincere@april.biz",
-      "dateNaissance": "2019/02/10",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg",
-      "statut": "En Cours",
-      "address": {
-        "street": "Kulas Light",
-        "suite": "Apt. 556",
-        "city": "Gwenborough",
-        "zipcode": "92998-3874"
-      },
-      "phone": "1-770-736-8031 x56442",
-      "website": "hildegard.org",
-      "company": {
-        "name": "Romaguera-Crona",
-        "catchPhrase": "Multi-layered client-server neural-net",
-        "bs": "harness real-time e-markets"
-      }
-    },
-    {
-      "id": 2,
-      "name": "Ervin Howell",
-      "username": "Antonette",
-      "email": "Shanna@melissa.tv",
-      "dateNaissance": "2019/02/10",
-      "statut": "Valide",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg",
-      "address": {
-        "street": "Victor Plains",
-        "suite": "Suite 879",
-        "city": "Wisokyburgh",
-        "zipcode": "90566-7771"
-      },
-      "phone": "010-692-6593 x09125",
-      "website": "anastasia.net",
-      "company": {
-        "name": "Deckow-Crist",
-        "catchPhrase": "Proactive didactic contingency",
-        "bs": "synergize scalable supply-chains"
-      }
-    }
-  ],
-  "status": [
-    {
-      "id": 1,
-      "libelle": "En Cours"
-    },
-    {
-      "id": 1,
-      "libelle": "Rejete"
-    },
-    {
-      "id": 1,
-      "libelle": "Valide"
-    }
-  ],
   "foods": [
     {
-      "bannerImg": "./assets/images/header/carsoual/burger-04.jpg",
-      "title": "Chicken and fruiz",
-      "description": "the world's most powerful teasty chicken"
+      "bannerImg": "./assets/images/content/creptos-cosamia-01.jpg",
+      "title": "Plats Chicken",
+      "description": "Essayer notre plats Chicken a partir de 25 DH"
     },
     {
-      "bannerImg": "./assets/images/header/carsoual/burger-02.jpg",
-      "title": "Biggy Burger",
-      "description": "The world's most powerful teasty burger bring the best to users around the world"
+      "bannerImg": "./assets/images/content/creptos-cosamia-05.jpg",
+      "title": "Creptos Burger",
+      "description": "Essayer notre Burger a partir de 20 DH"
     },
     {
-      "bannerImg": "./assets/images/header/carsoual/pizza-01.jpg",
-      "title": "Pizza Margarita",
-      "description": "The world's most teasty margarita pizza"
+      "bannerImg": "./assets/images/content/creptos-cosamia-04.jpg",
+      "title": "Creptos Cosamiya",
+      "description": "Essayer notre plats a partir de 30 DH"
     }
   ],
   "products": [
     {
       "id": 1,
-      "productName": "Margarrita Pizza",
+      "productName": "Creptos Pizza",
       "productCategory": [
         "food",
         "pizza",
@@ -96,7 +36,7 @@
     },
     {
       "id": 2,
-      "productName": "Burger King",
+      "productName": "Creptos Burger",
       "productCategory": [
         "food",
         "burger",
@@ -113,14 +53,14 @@
     },
     {
       "id": 3,
-      "productName": "Tacos Mexico",
+      "productName": "Creptos Chicken",
       "productCategory": [
         "food",
         "tacos"
       ],
       "productPrice": 35,
       "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum earum incidunt laboriosam quisquam, doloremque tempore, animi tempora voluptates libero nulla perferendis, deserunt non error. Expedita quasi in esse cum.",
-      "productImageUrl": "./assets/images/content/tacos-01.png",
+      "productImageUrl": "./assets/images/content/chicken-01.png",
       "productAdded": 0,
       "productQuatity": 5,
       "ratings": 4,
@@ -129,30 +69,14 @@
     },
     {
       "id": 4,
-      "productName": "Chawarma Turkich",
+      "productName": "Creptos Salade",
       "productCategory": [
         "food",
-        "chawarma"
+        "salade"
       ],
       "productPrice": 35,
       "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum earum incidunt laboriosam quisquam, doloremque tempore, animi tempora voluptates libero nulla perferendis, deserunt non error. Expedita quasi in esse cum.",
-      "productImageUrl": "./assets/images/header/carsoual/shawrma-01.jpg",
-      "productAdded": 0,
-      "productQuatity": 7,
-      "ratings": 4,
-      "favourite": true,
-      "productSeller": "Foody"
-    },
-    {
-      "id": 5,
-      "productName": "Panini Morrocco",
-      "productCategory": [
-        "food",
-        "panini"
-      ],
-      "productPrice": 35,
-      "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum earum incidunt laboriosam quisquam, doloremque tempore, animi tempora voluptates libero nulla perferendis, deserunt non error. Expedita quasi in esse cum.",
-      "productImageUrl": "./assets/images/header/carsoual/burger-03.jpg",
+      "productImageUrl": "./assets/images/content/salad-01.png",
       "productAdded": 0,
       "productQuatity": 7,
       "ratings": 4,
@@ -248,49 +172,10 @@
   "users": [
     {
       "id": 1,
-      "email": "anas@gmail.com",
-      "password": "anas1234",
-      "firstname": "anas",
-      "lastname": "kamali"
-    },
-    {
-      "id": 2,
-      "email": "ali@gmail.com",
-      "password": "ali1234",
-      "firstname": "ali",
-      "lastname": "naji"
-    },
-    {
       "email": "admin@gmail.com",
-      "password": "admin",
+      "password": "creptos@@..100",
       "firstname": "admin",
-      "lastname": "admin",
-      "id": 3
-    },
-    {
-      "email": "anas@gmail.com",
-      "password": "anas1234",
-      "id": 4
-    },
-    {
-      "email": "anas@gmail.com",
-      "password": "anas1234",
-      "id": 5
-    },
-    {
-      "email": "anas@gmail.com",
-      "password": "anas1234",
-      "id": 6
-    },
-    {
-      "email": "anas@gmail.com",
-      "password": "anas1234",
-      "id": 7
-    }
-  ],
-  "links": [
-    {
-      "menuLinks": "./assets/images/header/Creptos_Menu.pdf"
+      "lastname": "admin"
     }
   ]
 }
