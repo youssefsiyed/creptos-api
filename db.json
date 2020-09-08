@@ -155,7 +155,7 @@
       "id": 1,
       "firstname": "anas",
       "lastname": "kamal",
-      "email": "anas@gmail.com",
+      "adresse": "Hay Housra,casablanca",
       "phone": "4777777777777",
       "date": "11/8/2020",
       "latitude": 33.579316505105126,
@@ -182,7 +182,7 @@
     {
       "firstname": "mehdi",
       "lastname": "mahdi",
-      "email": "mehdi@gmail.com",
+      "adresse": "Ain chouck,casablanca",
       "phone": "0671589622",
       "latitude": 33.5937536,
       "longitude": -7.6218368000000005,
@@ -205,34 +205,6 @@
         }
       ],
       "id": 4
-    },
-    {
-      "firstname": "test",
-      "lastname": "test",
-      "email": "test@gmail.com",
-      "phone": "0671589622",
-      "terms": true,
-      "latitude": 33.5937536,
-      "longitude": -7.6218368000000005,
-      "products": [
-        {
-          "id": 3,
-          "productName": "Tacos Mexico",
-          "productCategory": [
-            "food",
-            "tacos"
-          ],
-          "productPrice": 35,
-          "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum earum incidunt laboriosam quisquam, doloremque tempore, animi tempora voluptates libero nulla perferendis, deserunt non error. Expedita quasi in esse cum.",
-          "productImageUrl": "./assets/images/header/carsoual/burger-04.jpg",
-          "productAdded": 0,
-          "productQuatity": 5,
-          "ratings": 4,
-          "favourite": true,
-          "productSeller": "Foody"
-        }
-      ],
-      "id": 5
     }
   ],
   "users": [
