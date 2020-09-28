@@ -8,7 +8,7 @@
       "productDescription": "(sauce tomate -mozzarella -olives -poivron)",
       "productImageUrl": "https://i.pinimg.com/236x/b6/26/45/b62645cd188f9ba9afcb85b46dc62432.jpg",
       "productPopular": false,
-      "productQuatity": 5,
+      "productQuatity": 1,
       "productColor": "RED",
       "productSeller": "CREPTOS"
     },
@@ -20,7 +20,7 @@
       "productDescription": "(chicken -formage -tomate)",
       "productImageUrl": "https://i.pinimg.com/236x/03/3c/6a/033c6a815654e91e437176da643eb373.jpg",
       "productPopular": true,
-      "productQuatity": 5,
+      "productQuatity": 1,
       "productColor": "BROWN",
       "productSeller": "CREPTOS"
     },
@@ -32,7 +32,7 @@
       "productDescription": "(thon -formage -tomate -onions -olive)",
       "productImageUrl": "./assets/images/content/sandwich-01.jpg",
       "productPopular": true,
-      "productQuatity": 7,
+      "productQuatity": 1,
       "productColor": "YELLOW",
       "productSeller": "CREPTOS"
     },
@@ -44,7 +44,7 @@
       "productDescription": "(sauce tomate -mozzarella -charcuterie -poivron)",
       "productImageUrl": "https://i.pinimg.com/236x/b6/26/45/b62645cd188f9ba9afcb85b46dc62432.jpg",
       "productPopular": true,
-      "productQuatity": 5,
+      "productQuatity": 1,
       "productColor": "RED",
       "productSeller": "CREPTOS"
     },
@@ -56,7 +56,7 @@
       "productDescription": "(sauce tomate -mozzarella -courgette -poivron)",
       "productImageUrl": "https://i.pinimg.com/236x/b6/26/45/b62645cd188f9ba9afcb85b46dc62432.jpg",
       "productPopular": false,
-      "productQuatity": 5,
+      "productQuatity": 1,
       "productColor": "RED",
       "productSeller": "CREPTOS"
     },
@@ -68,7 +68,7 @@
       "productDescription": "(2 chicken -formage -tomate)",
       "productImageUrl": "https://i.pinimg.com/236x/03/3c/6a/033c6a815654e91e437176da643eb373.jpg",
       "productPopular": true,
-      "productQuatity": 7,
+      "productQuatity": 1,
       "productColor": "BROWN",
       "productSeller": "CREPTOS"
     },
@@ -80,7 +80,7 @@
       "productDescription": "(thon -formage)",
       "productImageUrl": "https://i.pinimg.com/236x/f7/33/26/f73326e6a469e4fa1295300bc5123b83.jpg",
       "productPopular": false,
-      "productQuatity": 5,
+      "productQuatity": 1,
       "productColor": "YELLOW",
       "productSeller": "CREPTOS"
     },
@@ -92,7 +92,7 @@
       "productDescription": "(patte -formage -tomate -charcuterie -carotte)",
       "productImageUrl": "https://i.pinimg.com/236x/69/35/f6/6935f606e1a470e601aa3d88c5e1fcec--healthy-salad-recipes-toasted-almonds.jpg",
       "productPopular": true,
-      "productQuatity": 7,
+      "productQuatity": 1,
       "productColor": "GREEN",
       "productSeller": "CREPTOS"
     },
@@ -104,7 +104,7 @@
       "productDescription": "(patte -formage -tomate -frite)",
       "productImageUrl": "https://i.pinimg.com/236x/b7/7c/2f/b77c2f147f59ae80b410a1cd85f163a6.jpg",
       "productPopular": false,
-      "productQuatity": 7,
+      "productQuatity": 1,
       "productColor": "BLUE",
       "productSeller": "CREPTOS"
     },
@@ -116,7 +116,7 @@
       "productDescription": "(orange -eau)",
       "productImageUrl": "https://i.pinimg.com/236x/b2/cd/52/b2cd52549a64bc89c19b3d369008fca3--homemade-orange-juice-recipe-homemade-juice.jpg",
       "productPopular": false,
-      "productQuatity": 7,
+      "productQuatity": 1,
       "productColor": "ORANGE",
       "productSeller": "CREPTOS"
     },
@@ -128,7 +128,7 @@
       "productDescription": "(oeufs -sauce tomate -fromage -poulet)",
       "productImageUrl": "https://i.pinimg.com/236x/c3/0b/73/c30b73cfdade644b6cf051e06d226443--spanish-food-sierra-leona.jpg",
       "productPopular": false,
-      "productQuatity": 7,
+      "productQuatity": 1,
       "productColor": "PURPLE",
       "productSeller": "CREPTOS"
     }
@@ -155,7 +155,7 @@
           "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum earum incidunt laboriosam quisquam, doloremque tempore, animi tempora voluptates libero nulla perferendis, deserunt non error. Expedita quasi in esse cum.",
           "productImageUrl": "https://i.pinimg.com/236x/03/3c/6a/033c6a815654e91e437176da643eb373.jpg",
           "productAdded": 0,
-          "productQuatity": 7,
+          "productQuatity": 1,
           "ratings": 4,
           "favourite": true,
           "productSeller": "Foody"
@@ -181,7 +181,7 @@
           "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum earum incidunt laboriosam quisquam, doloremque tempore, animi tempora voluptates libero nulla perferendis, deserunt non error. Expedita quasi in esse cum.",
           "productImageUrl": "https://i.pinimg.com/236x/b7/7c/2f/b77c2f147f59ae80b410a1cd85f163a6.jpg",
           "productAdded": 0,
-          "productQuatity": 5,
+          "productQuatity": 1,
           "ratings": 4,
           "favourite": true,
           "productSeller": "Foody"
