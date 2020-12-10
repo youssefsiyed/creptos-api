@@ -1,190 +1,409 @@
 {
-  "products": [
+  "foods": [
     {
       "id": 1,
-      "productName": "Pizza Margarita",
-      "productCategory": "pizza",
-      "productPrice": 20,
-      "productDescription": "(sauce tomate -mozzarella -olives -poivron)",
-      "productImageUrl": "https://i.pinimg.com/236x/b6/26/45/b62645cd188f9ba9afcb85b46dc62432.jpg",
-      "productPopular": false,
-      "productQuatity": 1,
-      "productColor": "RED",
-      "productSeller": "CREPTOS"
-    },
-    {
-      "id": 2,
-      "productName": "Chicken Burger",
-      "productCategory": "burger",
-      "productPrice": 25,
-      "productDescription": "(chicken -formage -tomate)",
-      "productImageUrl": "https://i.pinimg.com/236x/03/3c/6a/033c6a815654e91e437176da643eb373.jpg",
-      "productPopular": true,
-      "productQuatity": 1,
-      "productColor": "BROWN",
-      "productSeller": "CREPTOS"
-    },
-    {
-      "id": 3,
-      "productName": "Sandwich Thon",
-      "productCategory": "sandwich",
-      "productPrice": 10,
-      "productDescription": "(thon -formage -tomate -onions -olive)",
-      "productImageUrl": "./assets/images/content/sandwich-01.jpg",
-      "productPopular": true,
-      "productQuatity": 1,
-      "productColor": "YELLOW",
-      "productSeller": "CREPTOS"
-    },
-    {
-      "id": 4,
-      "productName": "Pizza Charcuterie",
-      "productCategory": "pizza",
-      "productPrice": 20,
-      "productDescription": "(sauce tomate -mozzarella -charcuterie -poivron)",
-      "productImageUrl": "https://i.pinimg.com/236x/b6/26/45/b62645cd188f9ba9afcb85b46dc62432.jpg",
-      "productPopular": true,
-      "productQuatity": 1,
-      "productColor": "RED",
-      "productSeller": "CREPTOS"
-    },
-    {
-      "id": 5,
-      "productName": "Pizza Vegetarienne",
-      "productCategory": "pizza",
-      "productPrice": 20,
-      "productDescription": "(sauce tomate -mozzarella -courgette -poivron)",
-      "productImageUrl": "https://i.pinimg.com/236x/b6/26/45/b62645cd188f9ba9afcb85b46dc62432.jpg",
-      "productPopular": false,
-      "productQuatity": 1,
-      "productColor": "RED",
-      "productSeller": "CREPTOS"
-    },
-    {
-      "id": 6,
-      "productName": "Double Chicken Burger",
-      "productCategory": "burger",
-      "productPrice": 32,
-      "productDescription": "(2 chicken -formage -tomate)",
-      "productImageUrl": "https://i.pinimg.com/236x/03/3c/6a/033c6a815654e91e437176da643eb373.jpg",
-      "productPopular": true,
-      "productQuatity": 1,
-      "productColor": "BROWN",
-      "productSeller": "CREPTOS"
-    },
-    {
-      "id": 7,
-      "productName": "Sandwich Thon",
-      "productCategory": "sandwich",
-      "productPrice": 10,
-      "productDescription": "(thon -formage)",
-      "productImageUrl": "https://i.pinimg.com/236x/f7/33/26/f73326e6a469e4fa1295300bc5123b83.jpg",
-      "productPopular": false,
-      "productQuatity": 1,
-      "productColor": "YELLOW",
-      "productSeller": "CREPTOS"
-    },
-    {
-      "id": 8,
       "productName": "Salade Creptos",
       "productCategory": "salade",
       "productPrice": 25,
       "productDescription": "(patte -formage -tomate -charcuterie -carotte)",
-      "productImageUrl": "https://i.pinimg.com/236x/69/35/f6/6935f606e1a470e601aa3d88c5e1fcec--healthy-salad-recipes-toasted-almonds.jpg",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/salad.svg",
       "productPopular": true,
       "productQuatity": 1,
-      "productColor": "GREEN",
+      "productType": 1,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 2,
+      "productName": "Salade Nicoise",
+      "productCategory": "salade",
+      "productPrice": 15,
+      "productDescription": "(riz -thon -formage -tomate -cucumber -carotte)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/salad.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 1,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 3,
+      "productName": "Panini Thon",
+      "productCategory": "panini",
+      "productPrice": 10,
+      "productDescription": "(thon -formage -tomate -onions -olive)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burrito.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 2,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 4,
+      "productName": "Panini Omelette",
+      "productCategory": "panini",
+      "productPrice": 10,
+      "productDescription": "(charcuterie -formage -oeuf)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burrito.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 2,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 5,
+      "productName": "Panini Charcuterie",
+      "productCategory": "panini",
+      "productPrice": 12,
+      "productDescription": "(charcuterie -formage)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burrito.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 2,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 6,
+      "productName": "Panini Hot Dog",
+      "productCategory": "panini",
+      "productPrice": 12,
+      "productDescription": "(hot dog -formage)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burrito.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 2,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 7,
+      "productName": "Panini Viande Hachee",
+      "productCategory": "panini",
+      "productPrice": 15,
+      "productDescription": "(viande Hachee -formage)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burrito.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 2,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 8,
+      "productName": "Panini Poulet",
+      "productCategory": "panini",
+      "productPrice": 15,
+      "productDescription": "(poulet -formage)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burrito.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 2,
       "productSeller": "CREPTOS"
     },
     {
       "id": 9,
-      "productName": "Tacos Poulet",
-      "productCategory": "tacos",
-      "productPrice": 25,
-      "productDescription": "(patte -formage -tomate -frite)",
-      "productImageUrl": "https://i.pinimg.com/236x/b7/7c/2f/b77c2f147f59ae80b410a1cd85f163a6.jpg",
-      "productPopular": false,
+      "productName": "Panini Mix",
+      "productCategory": "panini",
+      "productPrice": 15,
+      "productDescription": "(viande hachee -saucisse -poulet -formage)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burrito.svg",
+      "productPopular": true,
       "productQuatity": 1,
-      "productColor": "BLUE",
+      "productType": 2,
       "productSeller": "CREPTOS"
     },
     {
       "id": 10,
-      "productName": "Jus Orange",
-      "productCategory": "jus",
-      "productPrice": 8,
-      "productDescription": "(orange -eau)",
-      "productImageUrl": "https://i.pinimg.com/236x/b2/cd/52/b2cd52549a64bc89c19b3d369008fca3--homemade-orange-juice-recipe-homemade-juice.jpg",
-      "productPopular": false,
+      "productName": "Sandwich Thon",
+      "productCategory": "panini",
+      "productPrice": 10,
+      "productDescription": "(thon -formage -tomate -onions -olive)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burrito.svg",
+      "productPopular": true,
       "productQuatity": 1,
-      "productColor": "ORANGE",
+      "productType": 3,
       "productSeller": "CREPTOS"
     },
     {
       "id": 11,
-      "productName": "Tajine Poulet",
-      "productCategory": "tajine",
-      "productPrice": 8,
-      "productDescription": "(oeufs -sauce tomate -fromage -poulet)",
-      "productImageUrl": "https://i.pinimg.com/236x/c3/0b/73/c30b73cfdade644b6cf051e06d226443--spanish-food-sierra-leona.jpg",
+      "productName": "Sandwich Omelette",
+      "productCategory": "panini",
+      "productPrice": 10,
+      "productDescription": "(charcuterie -formage -oeuf)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burrito.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 3,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 12,
+      "productName": "Sandwich Charcuterie",
+      "productCategory": "panini",
+      "productPrice": 12,
+      "productDescription": "(charcuterie -formage)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burrito.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 2,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 13,
+      "productName": "Tacos Viande Hachee",
+      "productCategory": "tacos",
+      "productPrice": 25,
+      "productDescription": "(viande hachee -formage -frite)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/kebab.svg",
       "productPopular": false,
       "productQuatity": 1,
-      "productColor": "PURPLE",
+      "productType": 4,
       "productSeller": "CREPTOS"
+    },
+    {
+      "id": 14,
+      "productName": "Tacos Poulet",
+      "productCategory": "tacos",
+      "productPrice": 25,
+      "productDescription": "(poulet -formage -frite)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/kebab.svg",
+      "productPopular": false,
+      "productQuatity": 1,
+      "productType": 4,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 15,
+      "productName": "Tacos Nuggets",
+      "productCategory": "tacos",
+      "productPrice": 25,
+      "productDescription": "(nuggets -formage -frite)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/kebab.svg",
+      "productPopular": false,
+      "productQuatity": 1,
+      "productType": 4,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 16,
+      "productName": "Tacos Mix",
+      "productCategory": "tacos",
+      "productPrice": 30,
+      "productDescription": "(viande -poulet -formage -frite)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/kebab.svg",
+      "productPopular": false,
+      "productQuatity": 1,
+      "productType": 4,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 17,
+      "productName": "Tacos Cordon Bleu",
+      "productCategory": "tacos",
+      "productPrice": 35,
+      "productDescription": "(cordon bleu -formage -frite)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/kebab.svg",
+      "productPopular": false,
+      "productQuatity": 1,
+      "productType": 4,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 18,
+      "productName": "Pizza Margarita",
+      "productCategory": "pizza",
+      "productPrice": 20,
+      "productDescription": "(sauce tomate -mozzarella -olives -poivron)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/pizza-slice.svg",
+      "productPopular": false,
+      "productQuatity": 1,
+      "productType": 5,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 19,
+      "productName": "Pizza Charcuterie",
+      "productCategory": "pizza",
+      "productPrice": 20,
+      "productDescription": "(sauce tomate -mozzarella -charcuterie -poivron)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/pizza-slice.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 5,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 20,
+      "productName": "Pizza Vegane",
+      "productCategory": "pizza",
+      "productPrice": 20,
+      "productDescription": "(sauce tomate -mozzarella -courgette -poivron)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/pizza-slice.svg",
+      "productPopular": false,
+      "productQuatity": 1,
+      "productType": 5,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 21,
+      "productName": "Chicken Burger",
+      "productCategory": "burger",
+      "productPrice": 25,
+      "productDescription": "(chicken -formage -tomate)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burger.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 6,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 22,
+      "productName": "Double-Chicken Burger",
+      "productCategory": "burger",
+      "productPrice": 32,
+      "productDescription": "(2 chicken -formage -tomate)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burger.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 6,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 23,
+      "productName": "HumBurger",
+      "productCategory": "burger",
+      "productPrice": 25,
+      "productDescription": "(vidane hachee -formage -tomate)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burger.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 6,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 24,
+      "productName": "Double-HumBurger",
+      "productCategory": "burger",
+      "productPrice": 32,
+      "productDescription": "(2 vidane hachee -formage -tomate)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/burger.svg",
+      "productPopular": true,
+      "productQuatity": 1,
+      "productType": 6,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 25,
+      "productName": "Plat Chicken (sauce champignion)",
+      "productCategory": "plat",
+      "productPrice": 30,
+      "productDescription": "(plat sauce champignion -frites -fromage -poulet)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/chicken.svg",
+      "productPopular": false,
+      "productQuatity": 1,
+      "productType": 7,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 26,
+      "productName": "Plat Chicken (sauce blanche)",
+      "productCategory": "plat",
+      "productPrice": 30,
+      "productDescription": "(plat sauce blanche -frites -fromage -poulet)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/chicken.svg",
+      "productPopular": false,
+      "productQuatity": 1,
+      "productType": 7,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 27,
+      "productName": "Jus Banane",
+      "productCategory": "jus",
+      "productPrice": 8,
+      "productDescription": "(banane -lait)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/beer.svg",
+      "productPopular": false,
+      "productQuatity": 1,
+      "productType": 9,
+      "productSeller": "CREPTOS"
+    },
+    {
+      "id": 28,
+      "productName": "Boisson",
+      "productCategory": "jus",
+      "productPrice": 5,
+      "productDescription": "(coca -sprite -fanta ...)",
+      "productImageUrl": "../../../../../assets/images/main/food-icones/coke.svg",
+      "productPopular": false,
+      "productQuatity": 1,
+      "productType": 9,
+      "productSeller": "CREPTOS"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "libelle": "salade",
+      "imgUrl": "../../../../../assets/images/main/food-icones/salad.svg"
+    },
+    {
+      "id": 2,
+      "libelle": "panini",
+      "imgUrl": "../../../../../assets/images/main/food-icones/burrito.svg"
+    },
+    {
+      "id": 3,
+      "libelle": "sandwich",
+      "imgUrl": "../../../../../assets/images/main/food-icones/burrito.svg"
+    },
+    {
+      "id": 4,
+      "libelle": "tacos",
+      "imgUrl": "../../../../../assets/images/main/food-icones/kebab.svg"
+    },
+    {
+      "id": 5,
+      "libelle": "pizza",
+      "imgUrl": "../../../../../assets/images/main/food-icones/pizza-slice.svg"
+    },
+    {
+      "id": 6,
+      "libelle": "burger",
+      "imgUrl": "../../../../../assets/images/main/food-icones/burger.svg"
+    },
+    {
+      "id": 7,
+      "libelle": "plat",
+      "imgUrl": "../../../../../assets/images/main/food-icones/chicken.svg"
+    },
+    {
+      "id": 8,
+      "libelle": "patte",
+      "imgUrl": "../../../../../assets/images/main/food-icones/chicken.svg"
+    },
+    {
+      "id": 9,
+      "libelle": "jus",
+      "imgUrl": "../../../../../assets/images/main/food-icones/beer.svg"
     }
   ],
   "orders": [
     {
-      "id": 1,
-      "firstname": "anas",
-      "lastname": "kamal",
-      "adresse": "Hay Housra,casablanca",
-      "phone": "4777777777777",
-      "date": "11/8/2020",
-      "latitude": 33.579316505105126,
-      "longitude": -7.620198929955608,
+      "firstname": "jamal",
+      "lastname": "wali",
+      "phone": "0612345678",
+      "adresse": "ain chouck,87",
+      "location": true,
+      "date": "2020-12-07T12:46:38.596Z",
       "products": [
         {
-          "id": 5,
-          "productName": "Panini Morrocco",
-          "productCategory": [
-            "food",
-            "panini"
-          ],
-          "productPrice": 35,
-          "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum earum incidunt laboriosam quisquam, doloremque tempore, animi tempora voluptates libero nulla perferendis, deserunt non error. Expedita quasi in esse cum.",
-          "productImageUrl": "https://i.pinimg.com/236x/03/3c/6a/033c6a815654e91e437176da643eb373.jpg",
-          "productAdded": 0,
-          "productQuatity": 1,
-          "ratings": 4,
-          "favourite": true,
-          "productSeller": "Foody"
-        }
-      ]
-    },
-    {
-      "firstname": "mehdi",
-      "lastname": "mahdi",
-      "adresse": "Ain chouck,casablanca",
-      "phone": "0671589622",
-      "latitude": 33.5937536,
-      "longitude": -7.6218368000000005,
-      "products": [
-        {
-          "id": 3,
-          "productName": "Tacos Mexico",
-          "productCategory": [
-            "food",
-            "tacos"
-          ],
-          "productPrice": 35,
-          "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum earum incidunt laboriosam quisquam, doloremque tempore, animi tempora voluptates libero nulla perferendis, deserunt non error. Expedita quasi in esse cum.",
-          "productImageUrl": "https://i.pinimg.com/236x/b7/7c/2f/b77c2f147f59ae80b410a1cd85f163a6.jpg",
-          "productAdded": 0,
-          "productQuatity": 1,
-          "ratings": 4,
-          "favourite": true,
-          "productSeller": "Foody"
+          "id": 11,
+          "productName": "Plat Chicken Poulet",
+          "productCategory": "chicken",
+          "productPrice": 8,
+          "productDescription": "(oeufs -sauce tomate -fromage -poulet)",
+          "productImageUrl": "../../../../../assets/images/main/food-icones/chicken.svg",
+          "productPopular": false,
+          "productQuatity": "1",
+          "productColor": "PURPLE",
+          "productSeller": "CREPTOS"
         }
       ],
       "id": 4
