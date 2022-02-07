@@ -411,11 +411,102 @@
   ],
   "users": [
     {
-      "id": 1,
+      "firstName": "anas",
+      "lastName": "yassine",
+      "email": "test@gmail.com",
+      "password": "testtest",
+      "phone": "0688884747",
+      "role": "USER",
+      "ref": "9908301e-ec1a-4a83-9bbf-d994c55780cf",
+      "id": 1
+    },
+    {
+      "firstName": "admin",
+      "lastName": "admin",
       "email": "admin@gmail.com",
-      "password": "creptos@@..100",
-      "firstname": "admin",
-      "lastname": "admin"
+      "password": "admin12345",
+      "phone": "0688884747",
+      "role": "ADMIN",
+      "ref": "de05f4be-f035-4f2d-a14e-b0a681b2eee6",
+      "id": 2
+    }
+  ],
+  "trashs": [
+    {
+      "id": 1,
+      "name": "papier",
+      "icone": "fas fa-toilet-paper"
+    },
+    {
+      "id": 2,
+      "name": "plastique",
+      "icone": "fas fa-wine-bottle"
+    },
+    {
+      "id": 3,
+      "name": "électrique",
+      "icone": "fas fa-battery-three-quarters"
+    },
+    {
+      "id": 4,
+      "name": "cristal",
+      "icone": "fas fa-wine-glass-alt"
+    },
+    {
+      "id": 5,
+      "name": "autre",
+      "icone": "fas fa-recycle"
+    }
+  ],
+  "recycling": [
+    {
+      "responsable": {
+        "responsable_ref": "ref-002",
+        "responsable_name": "Larbi Kamali"
+      },
+      "quantity": 5,
+      "laltitude": 33.5769145,
+      "longitude": -7.5572338,
+      "statut": "EN ATTENDS",
+      "dateCreation": "2022-02-01T15:41:02.017Z",
+      "user_ref": "9908301e-ec1a-4a83-9bbf-d994c55780cf",
+      "type": [
+        "électrique"
+      ],
+      "id": 4
+    },
+    {
+      "responsable": {
+        "responsable_ref": "ref-002",
+        "responsable_name": "Larbi Kamali"
+      },
+      "quantity": 5,
+      "laltitude": 33.5769145,
+      "longitude": -7.5572338,
+      "statut": "VALIDER",
+      "dateCreation": "2022-02-01T15:41:02.017Z",
+      "user_ref": "9908301e-ec1a-4a83-9bbf-d994c55780cf",
+      "type": [
+        "électrique"
+      ],
+      "id": 5
+    }
+  ],
+  "responsables": [
+    {
+      "id": 1,
+      "responsable_name": "Amine Wali",
+      "responsable_ref": "ref-001"
+    },
+    {
+      "id": 2,
+      "responsable_name": "Mohammed Tahi",
+      "responsable_ref": "ref-002"
+    },
+    {
+      "id": 3,
+      "responsable_name": "Larbi Kamali",
+      "responsable_ref": "ref-002"
     }
   ]
 }
